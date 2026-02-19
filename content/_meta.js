@@ -28,10 +28,10 @@ const meta = {
     "title": "Resume",
   },
 
-  "Home": {
-    title: 'jackwalton.net',
+  "LinkedIn": {
+    title: 'LinkedIn',
     type: 'page',
-    href: 'https://jackwalton.net'
+    href: 'https://www.linkedin.com/in/jackspencerwalton/'
   }
 
 }
