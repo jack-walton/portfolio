@@ -6,6 +6,13 @@ export const generateStaticParams = generateStaticParamsFor('mdxPath')
 export async function generateMetadata(props) {
     const params = await props.params
     const { metadata } = await importPage(params.mdxPath)
+    
+    // For the root index, don't set a title so the layout default is used
+    if (!params.mdxPath || params.mdxPath.length === 0) {
+        const { title, ...rest } = metadata
+        return rest
+    }
+    
     return metadata
 }
 
