@@ -17,8 +17,8 @@ export const metadata = {
     description: 'The professional portfolio of Jack Walton.',
 
     icons: {
-      icon: '/images/general/favicon-16x16.png',
-      shortcut: '/images/general/favicon-16x16.png',
+      icon: '/icons/icon.png',
+      shortcut: '/icons/icon.svg',
     },
     openGraph: {
       title: "Jack's Portfolio",
