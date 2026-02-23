@@ -1,9 +1,9 @@
-import 'app/globals.css'
+import 'app/css/globals.css'
+import 'app/css/style.css'
 
 import {Footer, Layout, Navbar} from 'nextra-theme-docs'
 import {Head, Search} from 'nextra/components'
 import {getPageMap} from 'nextra/page-map'
-import 'nextra-theme-docs/style.css'
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
