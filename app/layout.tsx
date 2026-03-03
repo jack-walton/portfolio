@@ -1,5 +1,4 @@
 import 'app/css/globals.css'
-import 'app/css/style.css'
 
 import {Footer, Layout, Navbar} from 'nextra-theme-docs'
 import {Head, Search} from 'nextra/components'
