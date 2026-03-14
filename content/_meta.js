@@ -28,12 +28,6 @@ const meta = {
     "title": "Resume",
   },
 
-  "LinkedIn": {
-    title: 'LinkedIn',
-    type: 'page',
-    href: 'https://www.linkedin.com/in/jackspencerwalton/'
-  }
-
 }
 
 export default meta;

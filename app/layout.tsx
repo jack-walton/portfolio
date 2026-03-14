@@ -1,10 +1,14 @@
-import 'app/css/globals.css'
-
+//React Imports
 import {Footer, Layout, Navbar} from 'nextra-theme-docs'
 import {Head, Search} from 'nextra/components'
 import {getPageMap} from 'nextra/page-map'
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from "@vercel/speed-insights/next";
+
+//CSS Imports
+import 'katex/dist/katex.min.css'
+import 'nextra-theme-docs/style.css'
+import 'app/css/globals.css'
 
 export const metadata = {
     // Define your metadata here
@@ -39,7 +43,7 @@ export const metadata = {
 const navbar = (
     <Navbar
         logo={
-            <nav className="text-3xl font-bold">Jack's Portfolio</nav>
+            <nav className="portfolio-logo">Jack's Portfolio</nav>
         }
         // ... Your additional navbar options
     />
