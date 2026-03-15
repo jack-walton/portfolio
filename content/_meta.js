@@ -7,7 +7,7 @@ const meta = {
     },
   },
 
-  "AXS": { 
+  "AXS": {
     "title": "AXS Guide",
   },
 
