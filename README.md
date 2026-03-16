@@ -8,7 +8,7 @@ This is a documentation repository built with Next.js using the Nextra theme.
 
 Using the GitHub CLI:
 ```bash
-gh repo clone phucbm/nextra-docs-starter
+gh repo clone jack-walton/portfolio
 ```
 
 ### Install
