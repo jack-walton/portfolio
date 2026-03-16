@@ -1,6 +1,6 @@
 # Portfolio
 
-This is a documentation repository built with Next.js using the Nextra theme.
+This is a portfolio site built with Next.js using the Nextra theme.
 
 ## Local Development
 
