@@ -105,6 +105,12 @@ img {
   border-radius: 0 !important;
 }
 
+/* No underline on card links                                                 */
+.nextra-card a,
+[class*="nextra-card"] a {
+  text-decoration: none !important;
+}
+
 /* ─── CODE BLOCKS ────────────────────────────────────────────────────────── */
 pre, code {
   border-radius: 0 !important;

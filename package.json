@@ -19,8 +19,7 @@
   },
   "homepage": "https://github.com/jack-walton/help.jackwalton.xyz#readme",
   "dependencies": {
-    "@formspree/react": "^3.0.0",
-    "@tailwindcss/postcss": "^4.1.13",
+"@tailwindcss/postcss": "^4.1.13",
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
     "katex": "^0.16.33",

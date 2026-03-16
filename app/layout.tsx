@@ -11,8 +11,6 @@ import 'nextra-theme-docs/style.css'
 import 'app/css/globals.css'
 
 export const metadata = {
-    // Define your metadata here
-    // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
     title: {
       default: "Jack's Portfolio",
       template: "%s | Jack's Portfolio",
@@ -45,7 +43,6 @@ const navbar = (
         logo={
             <nav className="portfolio-logo">Jack's Portfolio</nav>
         }
-        // ... Your additional navbar options
     />
 )
 
@@ -68,9 +65,7 @@ export default async function RootLayout({children}) {
             // Suggested by `next-themes` package https://github.com/pacocoursey/next-themes#with-app
             suppressHydrationWarning
         >
-        <Head
-            // ... Your additional head options
-        >
+        <Head>
             <link rel="shortcut icon" href="/images/general/favicon-16x16.png"/>
             {/* Your additional tags should be passed as `children` of `<Head>` element */}
             <link
@@ -99,7 +94,6 @@ export default async function RootLayout({children}) {
             }}
 
             editLink={null}
-            // ... Your additional layout options
         >
             {children}
             <Analytics />
