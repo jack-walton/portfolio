@@ -11,6 +11,10 @@ const meta = {
     "title": "AXS Guide",
   },
 
+  "AI": {
+    "title": "AI Tooling",
+  },
+
   "bandcamp": { 
     "title": "Music Information Retrieval in Bandcamp",
       "theme": {
@@ -24,8 +28,16 @@ const meta = {
   },
 
 
-  "resume": { 
+  "resume": {
     "title": "Resume",
+  },
+
+  "changelog": {
+    "title": "Change Log",
+    "theme": {
+      toc: false,
+      breadcrumb: false,
+    },
   },
 
 }
