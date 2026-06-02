@@ -7,7 +7,7 @@ title: CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-This is Jack Walton's technical writing portfolio, built with Next.js and [Nextra](https://nextra.site/). It showcases technical writing samples including a user guide, a UX research paper, and an academic grant proposal. The audience of this portfolio consists of technical recruiters, founders, and people with technical interests. This portfolio is intended to be professional.
+This is Jack Walton's technical writing portfolio, built with Next.js and [Nextra](https://nextra.site/). It showcases technical writing samples including a user guide and a UX research paper. The audience of this portfolio consists of technical recruiters, founders, and people with technical interests. This portfolio is intended to be professional.
 
 ## About Jack
 
@@ -43,6 +43,6 @@ next.config.mjs  ← Nextra plugin config (search enabled, copy code enabled)
 
 Navigation order and display titles are controlled entirely by `_meta.js` files — Nextra does not auto-discover pages. When adding a new page, register it in the nearest `_meta.js`.
 
-## Slash Commands
+## Skills
 
-Project-level slash commands live in `.claude/commands/` and are documented in `content/AI Tooling/commands/`.
+Project-level skills live in `.claude/commands/` and are documented in `content/AI/skills/`.

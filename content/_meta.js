@@ -23,11 +23,6 @@ const meta = {
     },
   },
 
-  "surop": { 
-    "title": "Grant Proposal",
-  },
-
-
   "resume": {
     "title": "Resume",
   },
