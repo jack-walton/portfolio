@@ -71,8 +71,8 @@ export default async function RootLayout({children}) {
             <link
   rel="apple-touch-icon"
   href="/images/general/apple-touch-icon.png"
-  type="image"
-  sizes="<generated>"
+  type="image/png"
+  sizes="180x180"
 />
         </Head>
         <body>
