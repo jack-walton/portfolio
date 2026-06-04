@@ -1,7 +1,6 @@
 const meta = {
   "index": "Overview",
-  "CLAUDE": "CLAUDE.md",
-  "skills": "Skills",
+  "change-log": "Change Log Generator",
 }
 
 export default meta;

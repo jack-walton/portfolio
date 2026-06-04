@@ -1,48 +1,20 @@
 ---
-title: AI Tooling
+title: Prompt Engineering
 ---
 
 import { Cards } from 'nextra/components'
 
-# AI Tools
+# Prompt Engineering
 
-This section documents the AI tooling I've developed. The files here are functional. They're loaded by Claude Code during development sessions and displayed here as a portfolio artifact. 
+This section documents a structured prompt I use with Claude Code. The prompt is functional — it runs against this repository — and is included here as a portfolio artifact.
 
-## CLAUDE.md
+The [Change Log Generator](/AI/change-log) analyzes the git commit history of a repository and produces a formatted, customer-facing change log. The [Change Log](/changelog) page on this site is its output.
 
-`CLAUDE.md` is a project context file that loads automatically at the start of every session. This file helps Claude Code understand this project and how to work with it effectively. It includes information about the project's purpose, structure, and my preferences for writing and communication style.
-
-<Cards
-    num={1}
-    >
-
-    <Cards.Card
-        title="CLAUDE.md"
-        href="/AI/CLAUDE"
-        arrow
-/>
-
-</Cards>
-
-## Skills
-
-The skills are reusable prompt templates that I invoke with `/command-name` in Claude Code. Where a skill includes `$ARGUMENTS`, that placeholder is replaced at runtime with any text passed after the skill name. The [Cover Letter Generator](/AI/skills/cover-letter) is a prompt that fetches my blog and portfolio to generate a cover letter for a given job description in my voice.
-
-The [Change Log Generator](/AI/skills/change-log) is a prompt that analyzes the git commit history of a repository to generate a change log in a specific format. I use that skill to create the change log for this project.
-
-<Cards
-    num={1}
-    >
-
-    <Cards.Card
-        title="Cover Letter Generator"
-        href="/AI/skills/cover-letter"
-        arrow
-    />
+<Cards num={1}>
 
     <Cards.Card
         title="Change Log Generator"
-        href="/AI/skills/change-log"
+        href="/AI/change-log"
         arrow
     />
 

@@ -12,7 +12,7 @@ const meta = {
   },
 
   "AI": {
-    "title": "AI Tooling",
+    "title": "Prompt Engineering",
   },
 
   "bandcamp": { 
